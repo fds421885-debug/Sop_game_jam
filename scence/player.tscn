@@ -11,7 +11,7 @@ size = Vector2(72, 30)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6qx4q"]
 size = Vector2(84, 65)
 
-[node name="Player" type="CharacterBody2D" unique_id=959024085]
+[node name="Player" type="CharacterBody2D" unique_id=959024085 groups=["player"]]
 script = ExtResource("1_mjc1j")
 bullet_scene = ExtResource("2_3j5vv")
 
@@ -40,3 +40,7 @@ texture = ExtResource("4_4snmf")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="cannon_turret2" unique_id=1085031226]
 position = Vector2(0, -26)
 shape = SubResource("RectangleShape2D_6qx4q")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=410329775]
+position = Vector2(287, -67)
+zoom = Vector2(1.3, 1.3)

@@ -15,10 +15,19 @@ run/main_scene="uid://dun4wqtgicv6y"
 config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://icon.svg"
 
+[autoload]
+
+GameManger="*uid://coyj05hfehyvj"
+
 [display]
 
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
+
+[global_group]
+
+player=""
+enemies=""
 
 [input]
 

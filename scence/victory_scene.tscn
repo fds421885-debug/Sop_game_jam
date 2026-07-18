@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://dn3310x5nelvy"]
+
+[ext_resource type="Script" uid="uid://8km17cs55njo" path="res://script/VictoryScene.gd" id="1_lcdkh"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_g7b7a"]
+font_size = 90
+
+[node name="VictoryScene" type="Control" unique_id=1670168112]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_lcdkh")
+
+[node name="Label" type="Label" parent="." unique_id=1960930431]
+layout_mode = 0
+offset_left = 433.0
+offset_top = 193.0
+offset_right = 589.0
+offset_bottom = 317.0
+text = "win"
+label_settings = SubResource("LabelSettings_g7b7a")
+
+[node name="Button" type="Button" parent="." unique_id=880701360]
+layout_mode = 0
+offset_left = 378.0
+offset_top = 434.0
+offset_right = 468.0
+offset_bottom = 465.0
+scale = Vector2(3.732929, 5.0761876)
+text = "play_again"
