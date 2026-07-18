@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://ew0mlyih8ink"]
+
+[ext_resource type="Script" uid="uid://dvwuxaf0gyo5d" path="res://script/bullet_scene.gd" id="1_3eteu"]
+[ext_resource type="Texture2D" uid="uid://5cj5g30dx547" path="res://asset/Fire_Bullet_Pixel_16x16.png" id="2_3eteu"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_vryy3"]
+
+[node name="Bullet Scene" type="Area2D" unique_id=1913994805]
+script = ExtResource("1_3eteu")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1131141347]
+texture_filter = 1
+scale = Vector2(2.719855, 2.7870686)
+texture = ExtResource("2_3eteu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1657219522]
+position = Vector2(2.9802322e-08, 0)
+scale = Vector2(1.9837153, 1.832152)
+shape = SubResource("CircleShape2D_vryy3")

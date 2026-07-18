@@ -1,0 +1,167 @@
+[gd_scene format=3 uid="uid://dun4wqtgicv6y"]
+
+[ext_resource type="Texture2D" uid="uid://bijb2dbn1lrto" path="res://asset/bg.png" id="1_60hyx"]
+[ext_resource type="PackedScene" uid="uid://sok3w6dueq6e" path="res://scence/player.tscn" id="2_eqmdk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g7b7a"]
+size = Vector2(69, 96)
+
+[node name="المشهد الرئيسي" type="Node2D" unique_id=137281139]
+
+[node name="CanvasLayer" type="Parallax2D" parent="." unique_id=303064163]
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer" unique_id=19845145]
+texture_filter = 1
+position = Vector2(624.00635, 346.97424)
+scale = Vector2(4.355358, 3.6669354)
+texture = ExtResource("1_60hyx")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="CanvasLayer" unique_id=313721817]
+position = Vector2(237, 115)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/StaticBody2D" unique_id=291970285]
+position = Vector2(7.5, 34)
+shape = SubResource("RectangleShape2D_g7b7a")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="CanvasLayer" unique_id=1421428074]
+position = Vector2(440, 169)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/StaticBody2D2" unique_id=358582276]
+position = Vector2(7.5, 40.5)
+shape = SubResource("RectangleShape2D_g7b7a")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="CanvasLayer" unique_id=78993912]
+position = Vector2(441, 215)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/StaticBody2D3" unique_id=64737431]
+position = Vector2(7.5, 40.5)
+shape = SubResource("RectangleShape2D_g7b7a")
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="CanvasLayer" unique_id=2102470586]
+position = Vector2(364, 43)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/StaticBody2D4" unique_id=25310780]
+position = Vector2(7.5, 40.5)
+shape = SubResource("RectangleShape2D_g7b7a")
+
+[node name="StaticBody2D5" type="StaticBody2D" parent="CanvasLayer" unique_id=111917494]
+position = Vector2(652, 81)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/StaticBody2D5" unique_id=142986026]
+position = Vector2(7.5, 40.5)
+shape = SubResource("RectangleShape2D_g7b7a")
+
+[node name="StaticBody2D6" type="StaticBody2D" parent="CanvasLayer" unique_id=959044434]
+position = Vector2(654, 122)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/StaticBody2D6" unique_id=812029697]
+position = Vector2(7.5, 40.5)
+shape = SubResource("RectangleShape2D_g7b7a")
+
+[node name="StaticBody2D7" type="StaticBody2D" parent="CanvasLayer" unique_id=19504313]
+position = Vector2(855, 113)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/StaticBody2D7" unique_id=212427110]
+position = Vector2(7.5, 40.5)
+shape = SubResource("RectangleShape2D_g7b7a")
+
+[node name="StaticBody2D8" type="StaticBody2D" parent="CanvasLayer" unique_id=821261686]
+position = Vector2(917, 33)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/StaticBody2D8" unique_id=1158325603]
+position = Vector2(7.5, 40.5)
+shape = SubResource("RectangleShape2D_g7b7a")
+
+[node name="StaticBody2D9" type="StaticBody2D" parent="CanvasLayer" unique_id=111537377]
+position = Vector2(939, 59)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/StaticBody2D9" unique_id=636668565]
+position = Vector2(7.5, 40.5)
+shape = SubResource("RectangleShape2D_g7b7a")
+
+[node name="StaticBody2D10" type="StaticBody2D" parent="CanvasLayer" unique_id=1692378020]
+position = Vector2(1139, 107)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/StaticBody2D10" unique_id=1352944731]
+position = Vector2(7.5, 40.5)
+shape = SubResource("RectangleShape2D_g7b7a")
+
+[node name="StaticBody2D11" type="StaticBody2D" parent="CanvasLayer" unique_id=586584287]
+position = Vector2(995, 171)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/StaticBody2D11" unique_id=1465106111]
+position = Vector2(7.5, 40.5)
+shape = SubResource("RectangleShape2D_g7b7a")
+
+[node name="StaticBody2D12" type="StaticBody2D" parent="CanvasLayer" unique_id=2097141273]
+position = Vector2(995, 220)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/StaticBody2D12" unique_id=2131589950]
+position = Vector2(7.5, 40.5)
+shape = SubResource("RectangleShape2D_g7b7a")
+
+[node name="StaticBody2D13" type="StaticBody2D" parent="CanvasLayer" unique_id=62349734]
+position = Vector2(928, 362)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/StaticBody2D13" unique_id=1929334351]
+position = Vector2(7.5, 40.5)
+shape = SubResource("RectangleShape2D_g7b7a")
+
+[node name="StaticBody2D14" type="StaticBody2D" parent="CanvasLayer" unique_id=1207753067]
+position = Vector2(922, 400)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/StaticBody2D14" unique_id=1991129785]
+position = Vector2(7.5, 40.5)
+shape = SubResource("RectangleShape2D_g7b7a")
+
+[node name="StaticBody2D15" type="StaticBody2D" parent="CanvasLayer" unique_id=183048774]
+position = Vector2(297, 455)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/StaticBody2D15" unique_id=2066168901]
+position = Vector2(7.5, 40.5)
+shape = SubResource("RectangleShape2D_g7b7a")
+
+[node name="StaticBody2D16" type="StaticBody2D" parent="CanvasLayer" unique_id=721215479]
+position = Vector2(439, 520)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/StaticBody2D16" unique_id=1628697891]
+position = Vector2(7.5, 40.5)
+shape = SubResource("RectangleShape2D_g7b7a")
+
+[node name="StaticBody2D17" type="StaticBody2D" parent="CanvasLayer" unique_id=1379947680]
+position = Vector2(652, 426)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/StaticBody2D17" unique_id=1591040325]
+position = Vector2(7.5, 40.5)
+shape = SubResource("RectangleShape2D_g7b7a")
+
+[node name="StaticBody2D18" type="StaticBody2D" parent="CanvasLayer" unique_id=843402739]
+position = Vector2(645, 472)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/StaticBody2D18" unique_id=1780489262]
+position = Vector2(7.5, 40.5)
+shape = SubResource("RectangleShape2D_g7b7a")
+
+[node name="StaticBody2D19" type="StaticBody2D" parent="CanvasLayer" unique_id=1070017881]
+position = Vector2(782, 526)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/StaticBody2D19" unique_id=742026995]
+position = Vector2(7.5, 40.5)
+shape = SubResource("RectangleShape2D_g7b7a")
+
+[node name="StaticBody2D20" type="StaticBody2D" parent="CanvasLayer" unique_id=1294318165]
+position = Vector2(1127, 510)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/StaticBody2D20" unique_id=202759552]
+position = Vector2(7.5, 40.5)
+shape = SubResource("RectangleShape2D_g7b7a")
+
+[node name="StaticBody2D21" type="StaticBody2D" parent="CanvasLayer" unique_id=1030953004]
+position = Vector2(1132, 522)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/StaticBody2D21" unique_id=631787620]
+position = Vector2(7.5, 40.5)
+shape = SubResource("RectangleShape2D_g7b7a")
+
+[node name="Player" parent="." unique_id=959024085 instance=ExtResource("2_eqmdk")]
+position = Vector2(231, 367)

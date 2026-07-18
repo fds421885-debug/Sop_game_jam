@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://sok3w6dueq6e"]
+
+[ext_resource type="Script" uid="uid://ccwpq7im1xwfc" path="res://script/player.gd" id="1_mjc1j"]
+[ext_resource type="PackedScene" uid="uid://ew0mlyih8ink" path="res://scence/bullet_scene.tscn" id="2_3j5vv"]
+[ext_resource type="Texture2D" uid="uid://cg5blqrglv2t4" path="res://asset/Cannon Body.png" id="3_qav0y"]
+[ext_resource type="Texture2D" uid="uid://c5yigai4tjs6p" path="res://asset/Cannon Head.png" id="4_4snmf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g7b7a"]
+size = Vector2(72, 30)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6qx4q"]
+size = Vector2(84, 65)
+
+[node name="Player" type="CharacterBody2D" unique_id=959024085]
+script = ExtResource("1_mjc1j")
+bullet_scene = ExtResource("2_3j5vv")
+
+[node name="base_sprite" type="Sprite2D" parent="." unique_id=2051070132]
+texture_filter = 1
+position = Vector2(5, 2)
+scale = Vector2(4.4126263, 5.155947)
+texture = ExtResource("3_qav0y")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=387113299]
+position = Vector2(-2, 18)
+shape = SubResource("RectangleShape2D_g7b7a")
+
+[node name="cannon_turret2" type="Area2D" parent="." unique_id=1031063552]
+position = Vector2(7, 7)
+
+[node name="Marker2D" type="Marker2D" parent="cannon_turret2" unique_id=1266266580]
+position = Vector2(43, -31)
+
+[node name="g" type="Sprite2D" parent="cannon_turret2" unique_id=265551441]
+texture_filter = 1
+position = Vector2(-4, -2)
+scale = Vector2(4.413, 4.413)
+texture = ExtResource("4_4snmf")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cannon_turret2" unique_id=1085031226]
+position = Vector2(0, -26)
+shape = SubResource("RectangleShape2D_6qx4q")
