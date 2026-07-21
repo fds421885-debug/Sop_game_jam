@@ -181,12 +181,12 @@ position = Vector2(231, 367)
 position = Vector2(799, 280)
 
 [node name="Spawner" parent="." unique_id=1577695175 instance=ExtResource("4_dvyxw")]
-position = Vector2(937, 244)
-spawn_cooldown = 1.5
+position = Vector2(1109, 244)
+spawn_cooldown = 0.5
 
 [node name="Spawner2" parent="." unique_id=1869049128 instance=ExtResource("4_dvyxw")]
-position = Vector2(564, 495)
+position = Vector2(609, 207)
 spawn_cooldown = 1.5
 
 [node name="Spawner3" parent="." unique_id=2144210686 instance=ExtResource("4_dvyxw")]
-position = Vector2(796, 180)
+position = Vector2(384, 416)
